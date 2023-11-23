@@ -1,0 +1,74 @@
+body {
+    width: 50%;
+    height: 100vh;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(13, 19, 25);
+    color: white; 
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    left: 50%;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 50px;
+}
+
+.title-page {
+    font-size: 47px;
+}
+
+.text h2 {
+    font-size: 40px;
+}
+
+.text h3 {
+    font-size: 30px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.text ul {
+    font-size: 20px;
+}
+
+#about-me-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Sean\'s\ The\ Rock\ Pose\ Photo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+}
+.white-boxes {
+    position: relative;
+    width: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.navigation-box {
+    background-color: #ffffff;
+    opacity: 1.0;
+    transform: scale(1, 1);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.navigation-box a {
+    text-decoration: none;
+    color: #333;
+}
